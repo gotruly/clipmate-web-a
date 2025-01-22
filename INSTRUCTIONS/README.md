@@ -12,7 +12,7 @@ Use the visual explorer to understand it. Check out the demo code in /INSTRUCTIO
 
 This code already implements the new backend. You can take it as inspiration (it uses **apollo** to implement the graphql API).
 
-You're task: 
+Your task: 
 - Implement the new API and pass a firestore token: `auth.currentUser.getIdToken()` (if you fail with auth, the API will still return demo data, just so you know)
 - Complete Step 1, by replacing the data fetching from firestore with fetching for collections and items from the new API instead.
 Ignore features that don't have endpoints in the API yet.
