@@ -15,6 +15,7 @@ This code already implements the new backend. You can take it as inspiration (it
 You're task: 
 - Implement the new API and pass a firestore token: `auth.currentUser.getIdToken()` (if you fail with auth, the API will still return demo data, just so you know)
 - Complete Step 1, by replacing the data fetching from firestore with fetching for collections and items from the new API instead.
+Ignore features that don't have endpoints in the API yet.
 
 You can use email login with these credentials to have data available: demo@clipmate.ai, Demo-123
 
