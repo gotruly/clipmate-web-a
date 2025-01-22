@@ -1,0 +1,51 @@
+env:
+  - variable: NEXT_PUBLIC_APP_NAME
+    value: Clipmate
+    availability:
+      - RUNTIME
+      - BUILD
+  - variable: NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET
+    value: clipmate-1.appspot.com
+    availability:
+      - RUNTIME
+      - BUILD
+  - variable: NEXT_PUBLIC_FIREBASE_PROJECT_ID
+    value: clipmate-1
+    availability:
+      - RUNTIME
+      - BUILD
+  - variable: NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN
+    value: clipmate-1.firebaseapp.com
+    availability:
+      - RUNTIME
+      - BUILD
+  - variable: NEXT_PUBLIC_FIREBASE_API_KEY
+    value: AIzaSyCgK-bsO7p-f0bBIr7b8QE_ATxHoFkmCW4
+    availability:
+      - RUNTIME
+      - BUILD
+  - variable: NEXT_PUBLIC_FIREBASE_DATABASE_URL
+    value: https://clipmate-1.firebaseio.com
+    availability:
+      - RUNTIME
+      - BUILD
+  - variable: NEXT_PUBLIC_REDDIT_CLIENT_ID
+    value: BuxK6ELOXeuGA6CwFMryzA
+    availability:
+      - RUNTIME
+      - BUILD
+  - variable: NEXT_PUBLIC_TWITTER_CLIENT_ID
+    value: ZUJiYVViUDZFTVJvUEdIdmtJdUI6MTpjaQ
+    availability:
+      - RUNTIME
+      - BUILD
+  - variable: NEXT_PUBLIC_REDDIT_REDIRECT_URI
+    value: https://app.clipmate.ai/auth/callback/reddit
+    availability:
+      - RUNTIME
+      - BUILD
+  - variable: NEXT_PUBLIC_TWITTER_REDIRECT_URI
+    value: https://app.clipmate.ai/auth/callback/twitter
+    availability:
+      - RUNTIME
+      - BUILD
